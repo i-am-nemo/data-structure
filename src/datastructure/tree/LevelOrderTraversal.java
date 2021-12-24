@@ -26,7 +26,7 @@ public class LevelOrderTraversal {
 		
 		list.offer(root);
 		
-		while(list.size() > 0) {
+		while(!list.isEmpty()) {
 			Node item = list.poll();
 			System.out.println(item.key);
 			
